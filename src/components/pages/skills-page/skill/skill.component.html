@@ -1,0 +1,10 @@
+<div class="" *ngIf="skill">
+	<div class="skill">
+		<img [src]="skill.imageUrl" [alt]="skill.name">
+		<div class="skill-info">
+			<p>{{ skill.name }} ({{ skill.year }})</p>
+			<app-progress [value]="skill.percentage"></app-progress>
+		</div>
+	</div>
+
+</div>

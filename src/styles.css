@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-white: #E9E9E9;
+  --main-blue: #6666FF;
+  --main-black: #333333;
+}
+
+body {
+  background-color: var(--main-white);
+  overflow-x: hidden !important;
+  color: var(--main-black);
+  font-family: tauri, serif;
+}
+
+@font-face {
+  font-family: tauri;
+  font-display: block;
+  src: url("../public/tauri.ttf");
+}
+

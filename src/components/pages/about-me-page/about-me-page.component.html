@@ -1,0 +1,22 @@
+<div id="about-me-page">
+	<div>
+		<h1>About me</h1>
+		<div id="about-me-text">
+			I'm Dustin. I am 20 years old and a student in IT.<br/><br/>
+			I have always been interested in space and am a big fan of sci-fi shows<br/>
+			(mostly star-trek). I have a good sense of humor, And I can always<br/>
+			appreciate a joke.<br/><br/>
+			When I'm not coding or studying, you can find me immersed in the<br/>
+			vast world of Pokémon, exploring the depths of a good book, or<br/>
+			soaring through the sky with my skydiving license.<br/>
+		</div>
+	</div>
+	<div id="about-me-slideshow">
+		<ng-image-slider
+			[images]="images"
+			[autoSlide]="{interval: 3}"
+			[imageSize]="{height:'280px', space: 0}"
+			[infinite]="true"
+		></ng-image-slider>
+	</div>
+</div>

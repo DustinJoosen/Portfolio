@@ -1,0 +1,18 @@
+<div id="skills-page">
+	<h1>Skills</h1>
+	<div id="skills">
+		<app-skill *ngFor="let skill of this.skills" [skill]="skill"></app-skill>
+	</div>
+	<div class="hr"></div>
+	<div id="mta">
+		<img src="img/mta.png" alt="MTA">
+		<p>
+			Software Development Fundamentals<br/>
+			Microsoft Certified (
+			<a href="https://learn.microsoft.com/en-us/credentials/certifications/exams/98-361/" target="_blank">
+				MTA 98-361
+			</a>)
+		</p>
+	</div>
+
+</div>
