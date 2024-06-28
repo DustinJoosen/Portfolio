@@ -12,19 +12,19 @@ export class AboutMePageComponent {
 	images: object[] = [
 		{
 			image: '/img/propedeuse.png',
-			thumbImage: 'https://dustinjoosen.nl/lib/img/propedeuse.png',
+			thumbImage: 'img/propedeuse.png',
 			alt: 'Getting my propedeuse',
 			title: 'Getting my propedeuse'
 		},
 		{
 			image: 'img/skydiving.png',
-			thumbImage: 'https://dustinjoosen.nl/lib/img/skydiving.png',
+			thumbImage: 'img/skydiving.png',
 			alt: 'Skydiving',
 			title: 'Skydiving'
 		},
 		{
 			image: 'img/startrek.png',
-			thumbImage: 'https://dustinjoosen.nl/lib/img/startrek.png',
+			thumbImage: 'img/startrek.png',
 			alt: 'At a star-trek convention',
 			title: 'At a star-trek convention'
 		}

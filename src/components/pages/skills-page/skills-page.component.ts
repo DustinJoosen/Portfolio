@@ -18,91 +18,91 @@ export class SkillsPageComponent {
 		{
 			name: 'HTML',
 			percentage: 80,
-			imageUrl: '/img/languages/html.png',
+			imageUrl: 'img/languages/html.png',
 			year: '2018'
 		},
 		{
 			name: 'CSS',
 			percentage: 60,
-			imageUrl: '/img/languages/css.png',
+			imageUrl: 'img/languages/css.png',
 			year: '2018'
 		},
 		{
 			name: 'Javascript',
 			percentage: 65,
-			imageUrl: '/img/languages/js.png',
+			imageUrl: 'img/languages/js.png',
 			year: '2018'
 		},
 		{
 			name: 'JQuery',
 			percentage: 40,
-			imageUrl: '/img/languages/jquery.png',
+			imageUrl: 'img/languages/jquery.png',
 			year: '2019'
 		},
 		{
 			name: 'Python',
 			percentage: 80,
-			imageUrl: '/img/languages/python.png',
+			imageUrl: 'img/languages/python.png',
 			year: '2018'
 		},
 		{
 			name: 'PHP',
 			percentage: 70,
-			imageUrl: '/img/languages/php.png',
+			imageUrl: 'img/languages/php.png',
 			year: '2019'
 		},
 		{
 			name: 'Laravel',
 			percentage: 65,
-			imageUrl: '/img/languages/laravel.png',
+			imageUrl: 'img/languages/laravel.png',
 			year: '2021'
 		},
 		{
 			name: 'C#',
 			percentage: 90,
-			imageUrl: '/img/languages/csharp.png',
+			imageUrl: 'img/languages/csharp.png',
 			year: '2020'
 		},
 		{
 			name: 'ASP.NET',
 			percentage: 75,
-			imageUrl: '/img/languages/csharp.png',
+			imageUrl: 'img/languages/csharp.png',
 			year: '2020'
 		},
 		{
 			name: 'WPF',
 			percentage: 60,
-			imageUrl: '/img/languages/csharp.png',
+			imageUrl: 'img/languages/csharp.png',
 			year: '2020'
 		},
 		{
 			name: 'Angular',
 			percentage: 80,
-			imageUrl: '/img/languages/angular.png',
+			imageUrl: 'img/languages/angular.png',
 			year: '2024'
 		},
 		{
 			name: 'Java',
 			percentage: 60,
-			imageUrl: '/img/languages/java.png',
+			imageUrl: 'img/languages/java.png',
 			year: '2023'
 		},
 		{
 			name: 'MySQL',
 			percentage: 65,
-			imageUrl: '/img/languages/mysql.png',
+			imageUrl: 'img/languages/mysql.png',
 			year: '2020'
 		},
 		{
 			name: 'Scrum',
 			percentage: 40,
-			imageUrl: '/img/languages/scrum.png',
+			imageUrl: 'img/languages/scrum.png',
 			year: '2018'
 		},
 		{
 			name: 'GIT',
 			percentage: 80,
-			imageUrl: '/img/languages/git.png',
+			imageUrl: 'img/languages/git.png',
 			year: '2019'
 		},
 	]
