@@ -1,0 +1,26 @@
+<main>
+	<p id="portfolio-project-title">{{ this.current.title }}</p>
+	<div id="portfolio-card">
+		<div *ngIf="this.canGoPrev()" id="portfolio-card-prev-holder">
+			<div id="portfolio-card-prev">
+				<div id="portfolio-card-prev-arrow-outside" (click)="prev()">
+					<div id="portfolio-card-prev-arrow-inside"></div>
+				</div>
+			</div>
+		</div>
+		<div *ngIf="this.canGoNext()" id="portfolio-card-next-holder">
+			<div id="portfolio-card-next">
+				<div id="portfolio-card-next-arrow-outside" (click)="next()">
+					<div id="portfolio-card-next-arrow-inside"></div>
+				</div>
+			</div>
+		</div>
+		<img (click)="onImageClick()" id="portfolio-card-image" title="Click to open project"
+			 src="img/portfolio/{{ this.current.title | lowercase }}.png">
+		<button class="mobile-button" [disabled]="!this.canGoPrev()" (click)="prev()">Previous</button>
+		<button class="mobile-button" [disabled]="!this.canGoNext()" (click)="next()">Next</button>
+		<p id="portfolio-project-description">
+			{{ this.current.description }}
+		</p>
+	</div>
+</main>
