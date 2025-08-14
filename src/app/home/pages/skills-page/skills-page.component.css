@@ -1,5 +1,5 @@
 #skills-page {
-	background-color: var(--main-blue);
+	background: linear-gradient(to right, var(--main-salmon), var(--main-yellow));
 	padding-bottom: 100px;
 }
 

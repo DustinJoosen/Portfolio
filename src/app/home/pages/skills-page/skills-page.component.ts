@@ -94,6 +94,12 @@ export class SkillsPageComponent {
 			year: '2020'
 		},
 		{
+			name: 'Rust',
+			percentage: 30,
+			imageUrl: 'img/languages/rust.png',
+			year: '2024'
+		},
+		{
 			name: 'Scrum',
 			percentage: 40,
 			imageUrl: 'img/languages/scrum.png',

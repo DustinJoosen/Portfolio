@@ -1,5 +1,5 @@
 #about-me-page {
-	background-color: var(--main-blue);
+	background: linear-gradient(to right, var(--main-salmon), var(--main-yellow));
 	display: flex;
 	flex-direction: row;
 	align-items: center;

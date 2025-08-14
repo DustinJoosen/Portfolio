@@ -13,6 +13,7 @@ export class NavbarComponent {
   goToTop() {}
 
 	alertUnfinished() {
-		alert("I am sorry. This function is not yet finished. Please check back later")
+		alert("I am sorry. This page is not yet finished. Please check back later")
 	}
+
 }

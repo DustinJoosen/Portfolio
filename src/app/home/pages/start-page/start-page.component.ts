@@ -19,7 +19,6 @@ export class StartPageComponent implements OnInit {
         "IT student",
         "GIT magician",
         "SQL wrangler",
-        "MTA certified"
       ],
       typeSpeed: 100,
       backSpeed: 50,

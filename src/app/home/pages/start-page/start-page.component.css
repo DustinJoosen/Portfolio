@@ -23,7 +23,7 @@
 }
 
 .auto-written-name {
-	color: var(--main-blue);
+	color: var(--main-salmon);
 }
 .auto-written-name::after {
 	content: "";
@@ -31,7 +31,7 @@
 	margin-left: 5px;
 	width: 2px;
 	height: 30px;
-	background-color: var(--main-blue);
+	background-color: var(--main-salmon);
 	animation: blink 1s step-end infinite;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .typeit-cursor {
-	color: var(--main-blue) !important;
+	color: var(--main-salmon) !important;
 }
 
 @media (max-width: 600px) {

@@ -14,6 +14,18 @@ export class ExperiencePageComponent {
 
 	employmentData: ExperienceItem[] = [
 		{
+			title: 'Ilmer B.V.',
+			underline: 'Data analyst',
+			description: 'Worked with Supervisely & YOLO patterns',
+			timeSpan: 'Aug 2024 - Current',
+		},
+		{
+			title: 'Dura Vermeer N.V.',
+			underline: 'Software developer Intern',
+			description: 'Worked with Angular & Google Sheets',
+			timeSpan: 'Sep 2024 - Dec 2024',
+		},
+		{
 			title: 'DEVENTit B.V.',
 			underline: 'Software developer Intern',
 			description: 'Worked with .NET API\'s & Angular',
@@ -35,6 +47,13 @@ export class ExperiencePageComponent {
 	]
 
 	educationData: ExperienceItem[] = [
+		{
+			title: 'Luleå Tekniska Universitet',
+			titleAbbr: '',
+			underline: 'Computer Science',
+			description: 'A minor abroad in Luleå, Sweden',
+			timeSpan: '2025 (Jan-Jun)',
+		},
 		{
 			title: 'Windesheim',
 			titleAbbr: '(HBO)',

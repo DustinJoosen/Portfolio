@@ -11,23 +11,28 @@ import {NgImageSliderModule} from "ng-image-slider";
 export class AboutMePageComponent {
 	images: object[] = [
 		{
-			image: '/img/propedeuse.png',
-			thumbImage: 'img/propedeuse.png',
+			image: '/img/slideshow/propedeuse.png',
+			thumbImage: 'img/slideshow/propedeuse.png',
 			alt: 'Getting my propedeuse',
 			title: 'Getting my propedeuse'
 		},
 		{
-			image: 'img/skydiving.png',
-			thumbImage: 'img/skydiving.png',
+			image: 'img/slideshow/skydiving.png',
+			thumbImage: 'img/slideshow/skydiving.png',
 			alt: 'Skydiving',
 			title: 'Skydiving'
 		},
 		{
-			image: 'img/startrek.png',
-			thumbImage: 'img/startrek.png',
+			image: 'img/slideshow/aurora.png',
+			thumbImage: 'img/slideshow/aurora.png',
+			alt: 'Visiting Aurora Borealis',
+			title: 'Visiting Aurora Borealis'
+		},
+		{
+			image: 'img/slideshow/startrek.png',
+			thumbImage: 'img/slideshow/startrek.png',
 			alt: 'At a star-trek convention',
 			title: 'At a star-trek convention'
-		}
+		},
 	];
-
 }
