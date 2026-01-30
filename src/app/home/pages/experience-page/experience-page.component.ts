@@ -14,10 +14,16 @@ export class ExperiencePageComponent {
 
 	employmentData: ExperienceItem[] = [
 		{
+			title: 'Voorraedt B.V.',
+			underline: 'Software developer Intern',
+			description: 'Worked with React, .NET API\'s',
+			timeSpan: 'Feb 2026 - Current',
+		},
+		{
 			title: 'Ilmer B.V.',
 			underline: 'Data analyst',
 			description: 'Worked with Supervisely & YOLO patterns',
-			timeSpan: 'Aug 2024 - Current',
+			timeSpan: 'Aug 2024 - Jan 2026',
 		},
 		{
 			title: 'Dura Vermeer N.V.',

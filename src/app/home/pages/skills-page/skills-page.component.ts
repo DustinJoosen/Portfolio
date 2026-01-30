@@ -82,6 +82,12 @@ export class SkillsPageComponent {
 			year: '2024'
 		},
 		{
+			name: 'React',
+			percentage: 45,
+			imageUrl: 'img/languages/react.png',
+			year: '2024'
+		},
+		{
 			name: 'Java',
 			percentage: 60,
 			imageUrl: 'img/languages/java.png',
@@ -111,5 +117,11 @@ export class SkillsPageComponent {
 			imageUrl: 'img/languages/git.png',
 			year: '2019'
 		},
+		{
+			name: 'YOLO',
+			percentage: 50,
+			imageUrl: 'img/languages/yolo.svg',
+			year: '2025'
+		}
 	]
 }
